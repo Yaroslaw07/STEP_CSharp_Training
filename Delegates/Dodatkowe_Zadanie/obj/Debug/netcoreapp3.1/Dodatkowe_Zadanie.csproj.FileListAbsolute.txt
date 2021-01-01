@@ -1,0 +1,13 @@
+E:\Step\C#\Deligates\Dodatkowe_Zadanie\bin\Debug\netcoreapp3.1\Dodatkowe_Zadanie.exe
+E:\Step\C#\Deligates\Dodatkowe_Zadanie\bin\Debug\netcoreapp3.1\Dodatkowe_Zadanie.deps.json
+E:\Step\C#\Deligates\Dodatkowe_Zadanie\bin\Debug\netcoreapp3.1\Dodatkowe_Zadanie.runtimeconfig.json
+E:\Step\C#\Deligates\Dodatkowe_Zadanie\bin\Debug\netcoreapp3.1\Dodatkowe_Zadanie.runtimeconfig.dev.json
+E:\Step\C#\Deligates\Dodatkowe_Zadanie\bin\Debug\netcoreapp3.1\Dodatkowe_Zadanie.dll
+E:\Step\C#\Deligates\Dodatkowe_Zadanie\bin\Debug\netcoreapp3.1\Dodatkowe_Zadanie.pdb
+E:\Step\C#\Deligates\Dodatkowe_Zadanie\obj\Debug\netcoreapp3.1\Dodatkowe_Zadanie.csprojAssemblyReference.cache
+E:\Step\C#\Deligates\Dodatkowe_Zadanie\obj\Debug\netcoreapp3.1\Dodatkowe_Zadanie.AssemblyInfoInputs.cache
+E:\Step\C#\Deligates\Dodatkowe_Zadanie\obj\Debug\netcoreapp3.1\Dodatkowe_Zadanie.AssemblyInfo.cs
+E:\Step\C#\Deligates\Dodatkowe_Zadanie\obj\Debug\netcoreapp3.1\Dodatkowe_Zadanie.csproj.CoreCompileInputs.cache
+E:\Step\C#\Deligates\Dodatkowe_Zadanie\obj\Debug\netcoreapp3.1\Dodatkowe_Zadanie.dll
+E:\Step\C#\Deligates\Dodatkowe_Zadanie\obj\Debug\netcoreapp3.1\Dodatkowe_Zadanie.pdb
+E:\Step\C#\Deligates\Dodatkowe_Zadanie\obj\Debug\netcoreapp3.1\Dodatkowe_Zadanie.genruntimeconfig.cache
