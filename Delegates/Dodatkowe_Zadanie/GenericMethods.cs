@@ -23,6 +23,7 @@ namespace Dodatkowe_Zadanie
         public static bool All<checkType>
             (IEnumerable<checkType> ToCheck,Func<checkType, bool> func)
         {
+            if (func == null) throw new ArgumentNullException("func");
             foreach(checkType elem in ToCheck)
             {
                 if(!func(elem))
@@ -36,6 +37,8 @@ namespace Dodatkowe_Zadanie
         public static void ForEach<T>
             (IEnumerable<T> toAction,Action<T> action)
         {
+            if (action == null) throw new ArgumentNullException("action");
+            
             foreach(T elem in toAction)
             {
                 action(elem);
