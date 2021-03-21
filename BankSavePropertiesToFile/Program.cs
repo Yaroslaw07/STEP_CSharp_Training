@@ -8,12 +8,11 @@ namespace BankSavePropertiesToFile
     {
         static void Main(string[] args)
         {
-            Bank A = new Bank();
+            Bank A = new Bank(12,"323",34);
+            
             A.money = 40;
-            Thread.Sleep(100);
 
             A.name = "ffad";
-            Thread.Sleep(100);
 
             A.percent = 12;
             Thread.Sleep(100);

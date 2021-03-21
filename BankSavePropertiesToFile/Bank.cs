@@ -11,6 +11,8 @@ namespace BankSavePropertiesToFile
         private int Money;
         private string Name;
         private int Percent;
+
+        private string path;
         public int money
         {
             get
@@ -51,12 +53,23 @@ namespace BankSavePropertiesToFile
 
         public Bank()
         {
+            path = "file1.txt";
+        }
 
+        public Bank(int Money, string Name, int Percent,string Path = "file1.txt")
+        {
+            money = Money;
+            name = Name;
+            percent = Percent;
+            path = Path;
         }
 
         private void SaveToFile(object StateInfo)
         {
-            File.WriteAllText("file1.txt", GetStringOfProperties());
+            lock (path)
+            {
+                File.WriteAllText(path, GetStringOfProperties());
+            }
         }
 
 

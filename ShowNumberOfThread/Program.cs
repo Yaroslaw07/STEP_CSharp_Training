@@ -28,7 +28,7 @@ namespace ShowNumberByThread
         public static void PrintNumber(object numb)
         {
             int numbToShow = (int)numb;
-            for (int i = 0; i < 100; i++)
+            for (int i = 0; i < 5; i++)
             {
                 string tab = string.Empty;
                 for (int j = 1; j < numbToShow; j++)
