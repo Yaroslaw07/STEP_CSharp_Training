@@ -54,7 +54,10 @@ namespace EF_example.Logic
 
         public List<Product> GetProductByCountOfDays(Warehouse_Context context, int countOfDays)
         {
-            var products = context.Products.Where(_ => (DateTime.Now - _.Date).TotalDays > countOfDays).ToList();
+
+            var products = context.Products.AsEnumerable().Where(_ => (DateTime.Now - _.Date).TotalDays > countOfDays).ToList();
+
+            
 
             return products;
         }

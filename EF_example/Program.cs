@@ -44,15 +44,20 @@ namespace EF_example
 
             #endregion
 
+            Console.WriteLine("Тип с найбольшим количеством товаром");
             Console.WriteLine(type_Service.GetTypeWithBiggerCount(context).ToString());
 
+            Console.WriteLine("Тип с найменьшим количеством товаром");
             Console.WriteLine(type_Service.GetTypeWithSmallerCount(context).ToString());
 
+            Console.WriteLine("Продавец с найбольшим количеством товаром");
             Console.WriteLine(provider_Service.GetProviderWithSmallerCount(context).ToString());
 
+            Console.WriteLine("Продавец с найменьшим количеством товаром");
             Console.WriteLine(provider_Service.GetProviderWithBiggerCount(context).ToString());
 
-            foreach(var product in product_Service.GetProductByCountOfDays(context,2))
+            Console.WriteLine("Товары, которые лежат 2 или более дней");
+            foreach (var product in product_Service.GetProductByCountOfDays(context,2))
             {
                 Console.WriteLine(product.ToString());
             }
