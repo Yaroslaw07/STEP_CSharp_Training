@@ -10,9 +10,7 @@ namespace Network_Exam
     internal class HttpResponse
     {
         public string Url { get; set; }
-
         public int StatusCode { get; set; }
-
         public HttpResponse(string url)
         {
             Url = url;
